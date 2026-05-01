@@ -1,0 +1,25 @@
+<main class="details-container">
+    <section class="product-essentials">
+        <div class="image-gallery">
+            <img src="https://via.placeholder.com/400" id="mainImg">
+            <div class="thumbnails">
+                <img src="https://via.placeholder.com/80" onclick="document.getElementById('mainImg').src=this.src">
+                <img src="https://via.placeholder.com/80" onclick="document.getElementById('mainImg').src=this.src">
+            </div>
+        </div>
+        <div class="info-aside">
+            <h1>ساعة ذكية Pro</h1>
+            <p class="price">1500 ج.م</p>
+            <button class="buy-btn">شراء الآن</button>
+        </div>
+    </section>
+
+    <section class="product-tabs">
+        <div class="tab-headers">
+            <button onclick="showTab('desc')">الوصف</button>
+            <button onclick="showTab('spec')">المواصفات</button>
+        </div>
+        <div id="desc" class="tab-content active">هذا المنتج يتميز ببطارية تدوم طويلًا...</div>
+        <div id="spec" class="tab-content">الوزن: 200 جرام، اللون: أسود...</div>
+    </section>
+</main>
